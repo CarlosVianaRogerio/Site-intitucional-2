@@ -8,6 +8,7 @@
     <title>LOGIN - AcquaTec</title>
     <link rel="stylesheet" href="Estilos.css">
     <link rel="stylesheet" href="formulario-estilo.css">
+    <link rel="stylesheet" href="cadastro.css">
 
 </head>
 
@@ -19,8 +20,8 @@
                     <li><a href="Index.html">Home</a></li>
                     <li>Simulador</li>
                     <li>|</li>
-                    <li id="aqui">Login</li>
-                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li id="aqui">Cadastro</li>
                 </ul>
             </div>
         </div>
@@ -28,16 +29,20 @@
             <div class="banner">
                 <div class="container">
                     <div class="caixa_formulario">
-                        <h1>Olá de volta!</h1>
+                        <h1>Bem-vindo!</h1>
                         <div class="formulario">
+                            <span>Nome: </span>
+                            <input class='ipt' id ='nome_input' type="text" placeholder="Seu nome">
 
                             <span>E-mail: </span>
                             <input class = 'ipt' id ='email_input' type="email" placeholder="Seu E-mail">
 
                             <span>Senha: </span>
                             <input class ='ipt' id = 'senha_input' type="password" placeholder="********">
-
-                            <button>Entrar</button>
+                            
+                            <span class="confirma">Confirmação da Senha:</span>
+                            <input class ='ipt' id = 'confirma_input' type="password" placeholder="********">
+                            <button>Cadastrar</button>
                         </div>
                     </div>
                 </div>
@@ -48,6 +53,7 @@
                     <h4>Feito com amor por um aluno &hearts; SPtec &copy;2022</h4>
                 </div>
             </div>
+         
 
 
 

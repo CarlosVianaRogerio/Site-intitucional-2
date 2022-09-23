@@ -13,12 +13,14 @@
     color: palevioletred;
     font-size: 30px;
     
+    
 }
 
 .formulario{
     display: flex;
     flex-direction: column;
     width: 200px;
+    
    
 }
 .formulario button{
@@ -40,5 +42,6 @@
     border-radius: 7px;
 }
 .formulario span{
-    font-size: 20px;
+    font-size: 17px;
+    padding-top: 7px;
 }
