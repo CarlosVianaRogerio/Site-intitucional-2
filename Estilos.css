@@ -21,6 +21,14 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.header #aqui{
+    font-weight: 1000;
+    color: #32b9cd;
+}
+.header a{
+    color: #e3b062;
+    text-decoration: none;
+}
 
 .navbar{
     display: flex;
@@ -77,7 +85,7 @@ body{
 /*footer*/
 .footer{
     background-color: #32b9cd;
-    height: 150px;
+    height: 95px;
     color: #fff;
     display: flex;
 }
